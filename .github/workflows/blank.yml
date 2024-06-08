@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Testing basic workflow
 
 # Controls when the workflow will run
 on:
@@ -36,5 +36,12 @@ jobs:
           echo test, and deploy your project.
           echo what is in the directory ? 
           ls -a
+          echo
+          echo can you check if java is installed or not ?
+          java --version
           echo 
-          echo end of the file reached
+          echo what about node ? 
+          node --version
+          echo 
+          echo end of the file
+          
